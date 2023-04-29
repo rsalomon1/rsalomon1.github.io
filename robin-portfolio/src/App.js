@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import { BrowserRouter, HashRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Router from "./Router";
 
 function App() {
   return (
     <div>
-      <HashRouter basename={process.env.PUBLIC_URL}>
+      <HashRouter>
         <Router />
       </HashRouter>
     </div>
