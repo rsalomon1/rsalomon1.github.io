@@ -6,7 +6,7 @@ import Router from "./Router";
 function App() {
   return (
     <div>
-      <HashRouter >
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Router />
       </HashRouter>
     </div>

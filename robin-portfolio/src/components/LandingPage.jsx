@@ -2,7 +2,7 @@ import React from 'react'
 
 function LandingPage() {
   return (
-    <div>Hello World</div>
+    <div>Robin Salomon's deployed portfolio</div>
   )
 }
 

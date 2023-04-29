@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router-dom";
 function Router() {
   return (
     <Routes>
-      <Route path="/" element={<LandingPage />} />
+      <Route path="/" render={LandingPage} />
     </Routes>
   );
 }
