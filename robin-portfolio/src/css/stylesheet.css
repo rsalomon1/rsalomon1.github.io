@@ -22,11 +22,12 @@
   height: 48px;
   line-height: 30px;
   outline: 0;
-  margin-bottom: 1cm;
+
   text-decoration: none;
   letter-spacing: 15px;
   opacity: 0.6;
   font-size: 3.5rem;
+  text-transform: uppercase;
 }
 
 .headshot {
@@ -38,13 +39,33 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 50vh;
+  margin-top: 40vh;
 }
+.web-developer{
+  color: gray;
+  display: inline-flex;
+  fill: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  height: 48px;
+  outline: 0;
+  text-decoration: none;
+  letter-spacing: 7px;
+  opacity: 0.6;
+  font-size: 1.5rem;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: uppercase;
+  
+}
+
 .landing-page-menu-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
+
 .menu-item {
   color: gray;
   display: inline-flex;
@@ -57,6 +78,7 @@
   opacity: 0.6;
   font-size: 1.5rem;
   padding: 15px;
+  margin-top: -10px;
 }
 .menu-item:hover{
   cursor: pointer;
@@ -71,5 +93,9 @@
   .menu-item{
     font-size: 3.5vw;
     padding: 5px;
+  }
+  .web-developer{
+    font-size: 1.5rem;
+    text-align: center;
   }
 }

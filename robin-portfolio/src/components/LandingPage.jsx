@@ -9,6 +9,8 @@ function LandingPage() {
     <div>
     <div className='page-container'>
     <p className="robin-salomon-name" >Robin Salomon</p>
+    <p className="web-developer" >Full Stack Web Developer</p>
+    
     <div className='landing-page-menu-container'>
       
     <p className='menu-item'>About</p>
