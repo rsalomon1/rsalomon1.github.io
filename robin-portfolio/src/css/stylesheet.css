@@ -1,0 +1,39 @@
+.page-container{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.22)), url('../images/background_image.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+   
+ 
+
+}
+h1, h2, h3, h4, h5, h6, p {
+  color: gray;
+  display: inline-flex;
+  fill: #000;
+  font-family: "Lato", sans-serif;
+  height: 48px;
+  line-height: 30px;
+  outline: 0;
+  margin-bottom: 1cm;
+  text-decoration: none;
+  letter-spacing: 7px;
+  opacity: .6;
+
+}
+.headshot{
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+}
+.robin-salomon-name{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50vh;
+    font-size:5vw;
+    
+}
