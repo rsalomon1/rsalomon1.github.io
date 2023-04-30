@@ -1,21 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
-
 .page-container {
   background: linear-gradient(
       0deg,
       rgba(255, 255, 255, 2),
-      rgba(255, 255, 255, 0.30)
+      rgba(255, 255, 255, 0.3)
     ),
-    url("../images/background_image.jpg") ;
+    url("../images/background_image.jpg");
   background-size: cover;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
-
-
 }
 .robin-salomon-name {
   color: gray;
@@ -25,7 +22,6 @@
   height: 48px;
   line-height: 30px;
   outline: 0;
-
   text-decoration: none;
   letter-spacing: 15px;
   opacity: 0.6;
@@ -44,7 +40,7 @@
   justify-content: center;
   margin-top: 40vh;
 }
-.web-developer{
+.web-developer {
   color: gray;
   display: inline-flex;
   fill: #000;
@@ -54,14 +50,13 @@
   text-decoration: none;
   letter-spacing: 7px;
   opacity: 0.6;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 15px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   text-transform: uppercase;
   font-weight: 400;
-  
 }
 
 .landing-page-menu-container {
@@ -69,7 +64,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
 }
 
 .menu-item {
@@ -82,12 +76,11 @@
   letter-spacing: 7px;
   opacity: 0.6;
   font-size: 1.5rem;
-  padding: 5px;
+  padding: 8px;
   margin-top: -10px;
   font-weight: 400;
-  
 }
-.menu-item:hover{
+.menu-item:hover {
   cursor: pointer;
   color: white;
 }
@@ -97,11 +90,11 @@
     font-size: 7vw;
     letter-spacing: 12px;
   }
-  .menu-item{
+  .menu-item {
     font-size: 3.5vw;
     padding: 5px;
   }
-  .web-developer{
+  .web-developer {
     font-size: 1.5rem;
     text-align: center;
   }
