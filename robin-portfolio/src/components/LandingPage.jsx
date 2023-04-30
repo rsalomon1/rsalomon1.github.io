@@ -12,7 +12,9 @@ function LandingPage() {
     <div className='landing-page-menu-container'>
       
     <p className='menu-item'>About</p>
+    <p style={{color:"#FF926A"}}className='menu-item'>|</p>
     <p className='menu-item'>Services</p>
+    <p style={{color:"#FF926A"}} className='menu-item'>|</p>
     <p className='menu-item'>Contact</p>
     </div>
     </div>
