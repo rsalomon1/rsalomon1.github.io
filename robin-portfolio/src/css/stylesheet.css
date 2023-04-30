@@ -1,18 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
+
 .page-container {
   background: linear-gradient(
       0deg,
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.22)
+      rgba(255, 255, 255, 2),
+      rgba(255, 255, 255, 0.30)
     ),
-    url("../images/background_image.jpg");
+    url("../images/background_image.jpg") ;
   background-size: cover;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
   left: 0px;
+
+
 }
 .robin-salomon-name {
   color: gray;
@@ -57,13 +60,16 @@
   flex-direction: row;
   justify-content: center;
   text-transform: uppercase;
+  font-weight: 400;
   
 }
 
 .landing-page-menu-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  
 }
 
 .menu-item {
@@ -71,14 +77,15 @@
   display: inline-flex;
   fill: #000;
   font-family: "Roboto Condensed", sans-serif;
-  height: 48px;
   outline: 0;
   text-decoration: none;
   letter-spacing: 7px;
   opacity: 0.6;
   font-size: 1.5rem;
-  padding: 15px;
+  padding: 5px;
   margin-top: -10px;
+  font-weight: 400;
+  
 }
 .menu-item:hover{
   cursor: pointer;
