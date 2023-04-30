@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
 .page-container{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.22)), url('../images/background_image.jpg');
     background-size: cover;
@@ -14,16 +16,23 @@ h1, h2, h3, h4, h5, h6, p {
   color: gray;
   display: inline-flex;
   fill: #000;
-  font-family: "Lato", sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
   height: 48px;
   line-height: 30px;
   outline: 0;
   margin-bottom: 1cm;
   text-decoration: none;
-  letter-spacing: 7px;
+  letter-spacing: 15px;
   opacity: .6;
-
+  font-size: 5vw;;
 }
+
+  @media screen and (max-width: 601px) {
+    .robin-salomon-name{
+      opacity: 1.5;
+      font-size: 8vw;
+    }
+  }
 .headshot{
     max-width: 100%;
     height: auto;
@@ -34,6 +43,4 @@ h1, h2, h3, h4, h5, h6, p {
     flex-direction: row;
     justify-content: center;
     margin-top: 50vh;
-    font-size:5vw;
-    
 }
