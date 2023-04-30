@@ -1,11 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
-.page-container {
-  background: linear-gradient(
-      0deg,
-      rgba(255, 255, 255, 2),
-      rgba(255, 255, 255, 0.3)
-    ),
+body{
+  
+  background-image:  url("../images/background_image_half_trans_v2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* .page-container {
+,
     url("../images/background_image.jpg");
   background-size: cover;
   position: absolute;
@@ -13,7 +17,8 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
-}
+} */
+
 .robin-salomon-name {
   color: gray;
   display: inline-flex;
@@ -24,7 +29,6 @@
   outline: 0;
   text-decoration: none;
   letter-spacing: 15px;
-  opacity: 0.6;
   font-size: 3.5rem;
   text-transform: uppercase;
 }
@@ -49,7 +53,6 @@
   outline: 0;
   text-decoration: none;
   letter-spacing: 7px;
-  opacity: 0.6;
   font-size: 2rem;
   padding: 15px;
   display: flex;
@@ -74,7 +77,6 @@
   outline: 0;
   text-decoration: none;
   letter-spacing: 7px;
-  opacity: 0.6;
   font-size: 1.5rem;
   padding: 8px;
   margin-top: -10px;
@@ -86,7 +88,6 @@
 }
 @media screen and (max-width: 601px) {
   .robin-salomon-name {
-    opacity: 1.5;
     font-size: 7vw;
     letter-spacing: 12px;
   }
@@ -97,5 +98,10 @@
   .web-developer {
     font-size: 1.5rem;
     text-align: center;
+  }
+  @media screen and (max-width: 601px) {
+    body{
+      height: 60vh;
+    }
   }
 }

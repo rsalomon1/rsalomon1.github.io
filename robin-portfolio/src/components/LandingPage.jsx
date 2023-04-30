@@ -12,13 +12,13 @@ function LandingPage() {
     <p className="web-developer" >Full Stack Web Developer</p>
     
     <div className='landing-page-menu-container'>
-    <p style={{color:"#FF926A"}}className='menu-item'>⸻</p>
+    <p style={{color:"rgb(242,250,189"}}className='menu-item'>⸻</p>
     <p className='menu-item'>About</p>
    
     <p className='menu-item'>Services</p>
    
     <p className='menu-item'>Contact</p>
-    <p style={{color:"#FF926A"}} className='menu-item'>⸻</p>
+    <p style={{color:"rgb(242,250,189"}} className='menu-item'>⸻</p>
     </div>
     </div>
     </div>
