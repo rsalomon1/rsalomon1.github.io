@@ -1,47 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
-.page-container{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.22)), url('../images/background_image.jpg');
-    background-size: cover;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-   
- 
-
+.page-container {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.22)
+    ),
+    url("../images/background_image.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
-h1, h2, h3, h4, h5, h6, p {
+.robin-salomon-name {
   color: gray;
   display: inline-flex;
   fill: #000;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   height: 48px;
   line-height: 30px;
   outline: 0;
   margin-bottom: 1cm;
   text-decoration: none;
   letter-spacing: 15px;
-  opacity: .6;
-  font-size: 5vw;;
+  opacity: 0.6;
+  font-size: 5vw;
 }
 
-  @media screen and (max-width: 601px) {
-    .robin-salomon-name{
-      opacity: 1.5;
-      font-size: 7vw;
-      letter-spacing: 12px;;
-    }
-  }
-.headshot{
-    max-width: 100%;
-    height: auto;
-    width: 400px;
+.headshot {
+  max-width: 100%;
+  height: auto;
+  width: 400px;
 }
-.robin-salomon-name{
-    display:flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 50vh;
+.robin-salomon-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50vh;
+}
+.landing-page-menu-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.menu-item {
+  color: gray;
+  display: inline-flex;
+  fill: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  height: 48px;
+  outline: 0;
+  text-decoration: none;
+  letter-spacing: 7px;
+  opacity: 0.6;
+  font-size: 1.5vw;
+  padding: 15px;
+}
+@media screen and (max-width: 601px) {
+  .robin-salomon-name {
+    opacity: 1.5;
+    font-size: 7vw;
+    letter-spacing: 12px;
+  }
+  .menu-item{
+    font-size: 3.5vw;
+  }
 }
