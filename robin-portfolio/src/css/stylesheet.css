@@ -1,23 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
-body{
-  
-  background-image:  url("../images/background_image_half_trans_v2.png");
+body {
+  background-image: url("../images/background_image_half_trans_v2.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
-/* .page-container {
-,
-    url("../images/background_image.jpg");
-  background-size: cover;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-} */
 
 .robin-salomon-name {
   color: gray;
@@ -100,7 +87,7 @@ body{
     text-align: center;
   }
   @media screen and (max-width: 601px) {
-    body{
+    body {
       height: 60vh;
     }
   }
