@@ -8,19 +8,19 @@ function NavBar() {
         <p onClick={() => navigate("/")} className="menu-item-navbar">
           Home
         </p>
-        <p style={{ color: "rgb(242,250,189" }} className="menu-item-navbar">
+        <p style={{ color: "rgb(220,127,50)" }} className="menu-item-navbar">
           |
         </p>
         <p onClick={() => navigate("/about")} className="menu-item-navbar">
           About
         </p>
-        <p style={{ color: "rgb(242,250,189" }} className="menu-item-navbar">
+        <p style={{ color: "rgb(220,127,50)" }} className="menu-item-navbar">
           |
         </p>
         <p onClick={() => navigate("/services")} className="menu-item-navbar">
           Services
         </p>
-        <p style={{ color: "rgb(242,250,189" }} className="menu-item-navbar">
+        <p style={{ color: "rgb(220,127,50)" }} className="menu-item-navbar">
           |
         </p>
         <p onClick={() => navigate("/contact")} className="menu-item-navbar">

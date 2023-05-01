@@ -10,7 +10,7 @@ function LandingPage() {
         <p className="web-developer">Full Stack Web Developer</p>
 
         <div className="landing-page-menu-container">
-          <p style={{ color: "rgb(242,250,189" }} className="menu-item">
+          <p style={{ color: "rgb(220,127,50)" }} className="menu-item">
             ⸻
           </p>
           <p onClick={() => navigate("/about")} className="menu-item">About</p>
@@ -18,7 +18,7 @@ function LandingPage() {
           <p onClick={() => navigate("/services")}  className="menu-item">Services</p>
 
           <p onClick={() => navigate("/contact")}  className="menu-item">Contact</p>
-          <p style={{ color: "rgb(242,250,189" }} className="menu-item">
+          <p style={{ color:"rgb(220,127,50)" }} className="menu-item">
             ⸻
           </p>
         </div>

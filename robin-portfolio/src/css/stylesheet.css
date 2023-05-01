@@ -4,7 +4,7 @@ body {
   background-image: url("../images/background_image_half_trans_v2.png");
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .robin-salomon-name {
@@ -19,6 +19,7 @@ body {
   letter-spacing: 15px;
   font-size: 3.5rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .headshot {
@@ -122,7 +123,7 @@ img {
 .navbar-container{
   display: flex;
   flex-direction: row;
-  margin-top: 2.25vh;
+  margin-top: 3vh;
   justify-content: center;
   
 }
@@ -156,10 +157,10 @@ img {
     text-align: center;
   }
 }
-@media screen and (max-width: 1187px) {
+@media screen and (max-width: 1264px) {
   .p-font {
-    margin-left: 3vh;
-    margin-right: 3vh;
+    margin-left: 15vh;
+    margin-right: 15vh;
   }
 }
 
@@ -172,5 +173,13 @@ img {
   }
   .menu-item-navbar{
     font-size: 1rem;
+  }
+  .p-font {
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+  .menu-item{
+    font-size: larger;
+    padding: 7px;
   }
 }
