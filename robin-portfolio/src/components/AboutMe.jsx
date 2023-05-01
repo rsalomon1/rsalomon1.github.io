@@ -40,8 +40,9 @@ function AboutMe() {
         company that ran the boot camp, marking
         the start of my professional journey in tech. As I worked on different projects,
         I became particularly interestd in UI/UX design and front-end technologies. 
-        Stemming from my characteristic as an empathetic person, I really enjoyed
-        creating user interfaces that were friendly and intuitive. 
+        The idea of creating user interfaces that are friendly and intuitive 
+        became a passion for me, which I link to the natural empathy that I 
+        have always carried throughout my life. 
         <br/>
         <br/>
         I am very grateful for having participated in the boot camp, even though it 
@@ -50,9 +51,9 @@ function AboutMe() {
         <br/>
         <br/>
         A few fun, non-techie facts about me: I'm a huge animal lover and a gym
-        fanatic, and I enjoy spending time with family and, of course, eating 
+        fanatic, and I enjoy spending time with family and eating 
         yummy, vegan food. I'm originally from the Washington, DC area, and 
-        went to college at American University where I majored in Spanish Studies.
+        attended college at American University where I majored in Spanish Studies.
         </p>
     </div>
   );

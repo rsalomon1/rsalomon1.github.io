@@ -132,9 +132,6 @@ img {
     font-size: 1.5rem;
     text-align: center;
   }
-  /* body {
-    height: 200vh;
-  } */
 }
 @media screen and (max-width: 1187px) {
   .p-font {
@@ -143,20 +140,11 @@ img {
   }
 }
 
-   @media screen and (max-width: 420px) {
-    body {
-     
-      min-height: 60vh;
-    }
-    .landing-page{
-      max-height: 100vh;
-    }
+@media screen and (max-width: 420px) {
+  body {
+    min-height: 60vh;
   }
-  /* @media screen and (max-width: 400px) {
-    body {
-      min-height: 360vh;
-    }
-  }  */
-
-
-
+  .landing-page {
+    max-height: 100vh;
+  }
+}
