@@ -10,9 +10,9 @@ function AboutMe() {
       <p className="header-text">About Me</p>
       <div className="text-content">
       <p className="p-font">
-        I'm a Full Stack Web Developer who has a non-traditional backround in
-        tech. It wasn't until my mid-thirties when I decided to make my tech career
-        transition. I had wanted to do this for some time, but I
+        I'm a Full Stack Web Developer with a non-traditional backround in
+        tech. It wasn't until my mid-thirties when I decided to transition
+        into tech. I had wanted to do this for some time, but I
         wasn't quite sure how to make the leap.
         <br/>
         <br/>
@@ -20,12 +20,13 @@ function AboutMe() {
         a web redesign project for a public health consulting firm where I had worked
         at the time. I provided content expertise to the development team, and acted 
         as a liason across stakeholders in the project. As I became closer with 
-        the development team and grew fond of their personalities, I thought to myself, "I really want to be a part 
+        the development team and grew fond of their personalities, 
+        I thought to myself, "I really want to be a part 
         of this crowd." My interest in the field grew, and as more time went
         by on the project, I found myself fixing technical aspects of the site that
         the team didn't expect me to resolve. I realized that I enjoyed that type of work, 
-        and I began to wish I had gone a different career route,
-        which until that time, had been in customer service, project coordination, and
+        and I began wishing I had gone down a different career path,
+        which, up to that time, had been in customer service, project coordination, and
         Spanish/English bilingual communications and translation.
         <br/>
         <br/>
@@ -42,16 +43,14 @@ function AboutMe() {
         company that ran the boot camp, marking
         the start of my professional journey in tech. As I worked on different projects,
         I became particularly interestd in UI/UX design and front-end technologies. 
-        The idea of creating user interfaces that are friendly and intuitive 
-        became a passion for me, which I link to the natural empathy that I 
-        have always possessed. I am very grateful for having participated in the boot 
-        camp, and I am so excited to see what other opportunites
-        present themselves in my tech career.
+        I developed a passion for creating user interfaces that are friendly and intuitive.
+        I am very grateful for making a transition into the field, 
+        and I am so excited to see what else lies ahead for me in this industry. 
         <br/>
         <br/>
         A few fun, non-techie facts about me: I'm a huge animal lover and a gym
         fanatic, and I enjoy spending time with family and eating 
-        yummy, vegan food. I'm originally from the Washington, DC area, and 
+        yummy vegan food. I'm originally from the Washington, DC area, and 
         attended college at American University where I majored in Spanish Studies.
         </p>
         </div>
