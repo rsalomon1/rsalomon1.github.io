@@ -28,21 +28,21 @@ function Services() {
           </p>
           <p className="header-text">What you could expect:</p>
           <div className="bullets-container">
-            <p className="bullet-points">
+            <p className="p-font">
               Responsive design: websites that look good across all devices
             </p>
 
-            <p className="bullet-points">
+            <p className="p-font">
               A clean coding style that will make your application easy to
               maintain down the road
             </p>
-            <p className="bullet-points">
+            <p className="p-font">
               Reliability and timely delivery from start to finish
             </p>
-            <p className="bullet-points">
+            <p className="p-font">
               Communication and a client-focused approach to work
             </p>
-            <p className="bullet-points">
+            <p className="p-font">
               Flexibility with changing needs
             </p>
             <p style={{ color: "rgb(220,127,50)" }} className="bullet-points">
