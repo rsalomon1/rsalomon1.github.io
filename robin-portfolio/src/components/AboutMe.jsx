@@ -8,7 +8,7 @@ function AboutMe() {
         <img src={require("../images/robin_salomon_circle_headshot.png")}></img>
       </div>
       <p className="header-text">About Me</p>
-      <div className="about-me-content">
+      <div className="text-content">
       <p className="p-font">
         I'm a Full Stack Web Developer who has a non-traditional backround in
         tech. It wasn't until my mid-thirties when I decided to make my tech career

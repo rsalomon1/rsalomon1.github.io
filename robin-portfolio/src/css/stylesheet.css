@@ -71,7 +71,8 @@ body {
   margin-top: -10px;
   font-weight: 400;
 }
-.menu-item:hover, .menu-item-navbar:hover {
+.menu-item:hover,
+.menu-item-navbar:hover {
   cursor: pointer;
   color: white;
 }
@@ -85,7 +86,7 @@ img {
   margin-right: auto;
   margin-top: 15vh;
 }
-.icon{
+.icon {
   width: 190px;
   display: block;
   margin-left: auto;
@@ -127,18 +128,39 @@ img {
   font-weight: 400;
   display: flex;
   justify-content: center;
+  text-align: left;
+  margin-right: 35vh;
+  margin-left: 35vh;
+  line-height: 35px;
+}
+.bullet-points {
+  color: gray;
+  display: inline-flex;
+  fill: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  outline: 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
   text-align: center;
   margin-right: 35vh;
   margin-left: 35vh;
 }
-.navbar-container{
+.bullets-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.navbar-container {
   display: flex;
   flex-direction: row;
   margin-top: 3vh;
   justify-content: center;
-  
 }
-.menu-item-navbar{
+.menu-item-navbar {
   color: gray;
   display: inline-flex;
   fill: #000;
@@ -151,7 +173,7 @@ img {
   margin-top: -10px;
   font-weight: 400;
 }
-.about-me-content{
+.text-content {
   margin-bottom: 10vh;
 }
 @media screen and (max-width: 601px) {
@@ -169,9 +191,13 @@ img {
   }
 }
 @media screen and (max-width: 1264px) {
-  .p-font {
+  .p-font,
+  .bullet-points {
     margin-left: 15vh;
     margin-right: 15vh;
+  }
+  .p-font{
+    text-align: center;
   }
 }
 
@@ -182,14 +208,16 @@ img {
   .landing-page {
     max-height: 100vh;
   }
-  .menu-item-navbar{
+  .menu-item-navbar {
     font-size: 1rem;
   }
-  .p-font {
+  .p-font,
+  .bullet-points {
     margin-left: 3vh;
     margin-right: 3vh;
   }
-  .menu-item{
+
+  .menu-item {
     font-size: larger;
     padding: 7px;
   }
