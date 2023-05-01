@@ -8,6 +8,7 @@ function AboutMe() {
         <img src={require("../images/robin_salomon_circle_headshot.png")}></img>
       </div>
       <p className="header-text">About Me</p>
+      <div className="about-me-content">
       <p className="p-font">
         I'm a Full Stack Web Developer who has a non-traditional backround in
         tech. It wasn't until my mid-thirties when I decided to make my tech career
@@ -53,6 +54,7 @@ function AboutMe() {
         yummy, vegan food. I'm originally from the Washington, DC area, and 
         attended college at American University where I majored in Spanish Studies.
         </p>
+        </div>
     </div>
   );
 }

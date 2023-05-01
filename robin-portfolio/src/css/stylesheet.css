@@ -139,6 +139,9 @@ img {
   margin-top: -10px;
   font-weight: 400;
 }
+.about-me-content{
+  margin-bottom: 10vh;
+}
 @media screen and (max-width: 601px) {
   .robin-salomon-name {
     font-size: 7vw;
