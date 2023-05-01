@@ -4,6 +4,7 @@ body {
   background-image: url("../images/background_image_half_trans_v2.png");
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .robin-salomon-name {
@@ -73,6 +74,51 @@ body {
   cursor: pointer;
   color: white;
 }
+img {
+  width: 220px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15vh;
+}
+.header-text {
+  color: gray;
+  display: inline-flex;
+  fill: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  height: 48px;
+  outline: 0;
+  text-decoration: none;
+  letter-spacing: 7px;
+  font-size: 2rem;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-transform: uppercase;
+  font-weight: 400;
+  margin: 1rem;
+}
+.p-font {
+  color: gray;
+  display: inline-flex;
+  fill: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  outline: 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1.25rem;
+  padding: 8px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: 35vh;
+  margin-left: 35vh;
+}
 @media screen and (max-width: 601px) {
   .robin-salomon-name {
     font-size: 7vw;
@@ -86,9 +132,31 @@ body {
     font-size: 1.5rem;
     text-align: center;
   }
-  @media screen and (max-width: 601px) {
-    body {
-      height: 60vh;
-    }
+  body {
+    height: 200vh;
   }
 }
+@media screen and (max-width: 1187px) {
+  .p-font {
+    margin-left: 3vh;
+    margin-right: 3vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  body {
+    min-height: 250vh;
+  } 
+}
+   @media screen and (max-width: 375px) {
+    body {
+      min-height: 355vh;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    body {
+      min-height: 360vh;
+    }
+  } 
+
+
+
