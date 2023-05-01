@@ -132,9 +132,9 @@ img {
     font-size: 1.5rem;
     text-align: center;
   }
-  body {
+  /* body {
     height: 200vh;
-  }
+  } */
 }
 @media screen and (max-width: 1187px) {
   .p-font {
@@ -142,21 +142,21 @@ img {
     margin-right: 3vh;
   }
 }
-@media only screen and (max-width: 600px) {
-  body {
-    min-height: 250vh;
-  } 
-}
-   @media screen and (max-width: 375px) {
+
+   @media screen and (max-width: 420px) {
     body {
-      min-height: 355vh;
+     
+      min-height: 60vh;
+    }
+    .landing-page{
+      max-height: 100vh;
     }
   }
-  @media screen and (max-width: 400px) {
+  /* @media screen and (max-width: 400px) {
     body {
       min-height: 360vh;
     }
-  } 
+  }  */
 
 
 

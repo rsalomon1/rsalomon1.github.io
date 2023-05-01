@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 function LandingPage() {
   const navigate = useNavigate();
   return (
-    <div>
+    <div className="landing-page">
       <div className="page-container">
         <p className="robin-salomon-name">Robin Salomon</p>
         <p className="web-developer">Full Stack Web Developer</p>
