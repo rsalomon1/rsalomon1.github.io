@@ -46,12 +46,7 @@ function AboutMe() {
         I developed a passion for creating user interfaces that are friendly and intuitive.
         I am very grateful for making a transition into the field, 
         and I am so excited to see what else lies ahead for me in this industry. 
-        <br/>
-        <br/>
-        A few fun, non-techie facts about me: I'm a huge animal lover and a gym
-        fanatic, and I enjoy spending time with family and eating 
-        yummy vegan food. I'm originally from the Washington, DC area, and 
-        attended college at American University where I majored in Spanish Studies.
+  
         </p>
         </div>
     </div>
