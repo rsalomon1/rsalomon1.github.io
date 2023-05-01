@@ -17,13 +17,13 @@ function AboutMe() {
         <br/>
         I first developed an interest in web development in 2012 when I supported
         a web redesign project for a public health consulting firm where I had worked
-        at that time. I provided content expertise to the development team, and acted 
+        at the time. I provided content expertise to the development team, and acted 
         as a liason across stakeholders in the project. As I became closer with 
-        the development team and grew fond of them, I thought to myself, "I really want to be a part 
+        the development team and grew fond of their personalities, I thought to myself, "I really want to be a part 
         of this crowd." My interest in the field grew, and as more time went
         by on the project, I found myself fixing technical aspects of the site that
-        the team didn't expect me to resolve. I realized that I enjoyed that type of work 
-        and solving technical problems, and I began to wish I had gone a different career route,
+        the team didn't expect me to resolve. I realized that I enjoyed that type of work, 
+        and I began to wish I had gone a different career route,
         which until that time, had been in customer service, project coordination, and
         Spanish/English bilingual communications and translation.
         <br/>
@@ -43,11 +43,8 @@ function AboutMe() {
         I became particularly interestd in UI/UX design and front-end technologies. 
         The idea of creating user interfaces that are friendly and intuitive 
         became a passion for me, which I link to the natural empathy that I 
-        have always carried throughout my life. 
-        <br/>
-        <br/>
-        I am very grateful for having participated in the boot camp, even though it 
-        came with so many sacrifices. I am so excited to see what other opportunites
+        have always possessed. I am very grateful for having participated in the boot 
+        camp, and I am so excited to see what other opportunites
         present themselves in my tech career.
         <br/>
         <br/>
