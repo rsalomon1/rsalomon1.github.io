@@ -12,7 +12,7 @@ function AboutMe() {
       <p className="p-font">
         I'm a Full Stack Web Developer with a non-traditional backround in
         tech. It wasn't until my mid-thirties when I decided to transition
-        into tech. I had wanted to do this for some time, but I
+        into the field. I had wanted to do this for some time, but I
         wasn't quite sure how to make the leap.
         <br/>
         <br/>
