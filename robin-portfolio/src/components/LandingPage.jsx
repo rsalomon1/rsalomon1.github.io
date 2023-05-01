@@ -15,9 +15,9 @@ function LandingPage() {
           </p>
           <p onClick={() => navigate("/about")} className="menu-item">About</p>
 
-          <p className="menu-item">Services</p>
+          <p onClick={() => navigate("/services")}  className="menu-item">Services</p>
 
-          <p className="menu-item">Contact</p>
+          <p onClick={() => navigate("/contact")}  className="menu-item">Contact</p>
           <p style={{ color: "rgb(242,250,189" }} className="menu-item">
             ⸻
           </p>

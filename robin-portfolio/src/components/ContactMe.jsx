@@ -1,8 +1,10 @@
 import React from 'react'
+import NavBar from './NavBar'
 
 function ContactMe() {
   return (
-    <div className='page-container'>
+    <div>
+      <NavBar/>
     <div>I can be reached at ...</div>
     </div>
   )

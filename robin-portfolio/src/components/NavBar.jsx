@@ -17,11 +17,15 @@ function NavBar() {
         <p style={{ color: "rgb(242,250,189" }} className="menu-item-navbar">
           |
         </p>
-        <p className="menu-item-navbar">Services</p>
+        <p onClick={() => navigate("/services")} className="menu-item-navbar">
+          Services
+        </p>
         <p style={{ color: "rgb(242,250,189" }} className="menu-item-navbar">
           |
         </p>
-        <p className="menu-item-navbar">Contact</p>
+        <p onClick={() => navigate("/contact")} className="menu-item-navbar">
+          Contact
+        </p>
       </div>
     </div>
   );
