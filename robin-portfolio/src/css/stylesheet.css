@@ -208,6 +208,12 @@ img {
   font-size: 1rem;
  }
 }
+@media screen and (min-width: 1625px) {
+  body {
+  margin-left: 17vh;
+  margin-right: 17vh;
+  }
+}
 @media screen and (max-width: 912px) {
  .contact-me-page{
   min-height: 100vh;
@@ -244,4 +250,5 @@ img {
     font-size: larger;
     padding: 5px;
   }
+
 }
