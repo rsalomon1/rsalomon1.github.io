@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.53dcd311.css",
-    "main.js": "/static/js/main.83b412ef.js",
+    "main.css": "/static/css/main.b1712359.css",
+    "main.js": "/static/js/main.3d4b9248.js",
     "static/js/787.9edaaa2d.chunk.js": "/static/js/787.9edaaa2d.chunk.js",
     "static/media/robin_salomon_circle_headshot.png": "/static/media/robin_salomon_circle_headshot.e3652168fcebd030b4ce.png",
     "static/media/background_image_half_trans_v2.png": "/static/media/background_image_half_trans_v2.625c10c380806443b79a.png",
     "index.html": "/index.html",
-    "main.53dcd311.css.map": "/static/css/main.53dcd311.css.map",
-    "main.83b412ef.js.map": "/static/js/main.83b412ef.js.map",
+    "main.b1712359.css.map": "/static/css/main.b1712359.css.map",
+    "main.3d4b9248.js.map": "/static/js/main.3d4b9248.js.map",
     "787.9edaaa2d.chunk.js.map": "/static/js/787.9edaaa2d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.53dcd311.css",
-    "static/js/main.83b412ef.js"
+    "static/css/main.b1712359.css",
+    "static/js/main.3d4b9248.js"
   ]
 }
