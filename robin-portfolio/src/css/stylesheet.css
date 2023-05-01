@@ -173,6 +173,7 @@ img {
   margin-top: -10px;
   font-weight: 400;
 }
+
 .text-content {
   margin-bottom: 10vh;
 }
@@ -189,7 +190,9 @@ img {
     font-size: 1.5rem;
     text-align: center;
   }
+ 
 }
+
 @media screen and (max-width: 1264px) {
   .p-font,
   .bullet-points {
