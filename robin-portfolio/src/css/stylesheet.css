@@ -203,6 +203,26 @@ img {
     text-align: center;
   }
 }
+@media screen and (max-width: 360px) {
+ .p-font{
+  font-size: 1rem;
+ }
+}
+@media screen and (max-width: 912px) {
+ .contact-me-page{
+  min-height: 100vh;
+ }
+ }
+ @media screen and (max-width: 280px) {
+  .p-font{
+    font-size: .75rem;
+  }
+  .menu-item-navbar{
+    padding: 3px;
+  }
+  
+  }
+ 
 
 @media screen and (max-width: 420px) {
   body {
