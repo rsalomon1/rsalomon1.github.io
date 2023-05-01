@@ -18,7 +18,7 @@ function AboutMe() {
         a web redesign project for a public health consulting firm where I had worked
         at that time. I provided content expertise to the development team, and acted 
         as a liason across stakeholders in the project. As I became closer with 
-        the development team, I thought to myself, "I really want to be a part 
+        the development team and grew fond of them, I thought to myself, "I really want to be a part 
         of this crowd." My interest in the field grew, and as more time went
         by on the project, I found myself fixing technical aspects of the site that
         the team didn't expect me to resolve. I realized that I enjoyed that type of work 
