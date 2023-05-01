@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.1197b153.css",
-    "main.js": "/static/js/main.a4406e7f.js",
+    "main.js": "/static/js/main.b4092f3b.js",
     "static/js/787.9edaaa2d.chunk.js": "/static/js/787.9edaaa2d.chunk.js",
     "static/media/robin_salomon_circle_headshot.png": "/static/media/robin_salomon_circle_headshot.e3652168fcebd030b4ce.png",
     "static/media/background_image_half_trans_v2.png": "/static/media/background_image_half_trans_v2.625c10c380806443b79a.png",
     "index.html": "/index.html",
     "main.1197b153.css.map": "/static/css/main.1197b153.css.map",
-    "main.a4406e7f.js.map": "/static/js/main.a4406e7f.js.map",
+    "main.b4092f3b.js.map": "/static/js/main.b4092f3b.js.map",
     "787.9edaaa2d.chunk.js.map": "/static/js/787.9edaaa2d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1197b153.css",
-    "static/js/main.a4406e7f.js"
+    "static/js/main.b4092f3b.js"
   ]
 }
