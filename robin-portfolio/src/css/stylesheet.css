@@ -70,7 +70,7 @@ body {
   margin-top: -10px;
   font-weight: 400;
 }
-.menu-item:hover {
+.menu-item:hover, .menu-item-navbar:hover {
   cursor: pointer;
   color: white;
 }
@@ -119,6 +119,26 @@ img {
   margin-right: 35vh;
   margin-left: 35vh;
 }
+.navbar-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.25vh;
+  justify-content: center;
+  
+}
+.menu-item-navbar{
+  color: gray;
+  display: inline-flex;
+  fill: #000;
+  font-family: "Roboto Condensed", sans-serif;
+  outline: 0;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+  padding: 8px;
+  margin-top: -10px;
+  font-weight: 400;
+}
 @media screen and (max-width: 601px) {
   .robin-salomon-name {
     font-size: 7vw;
@@ -146,5 +166,8 @@ img {
   }
   .landing-page {
     max-height: 100vh;
+  }
+  .menu-item-navbar{
+    font-size: 1rem;
   }
 }

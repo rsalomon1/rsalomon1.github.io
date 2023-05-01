@@ -1,8 +1,9 @@
 import React from "react";
-
+import NavBar from "./NavBar";
 function AboutMe() {
   return (
     <div>
+        <NavBar/>
       <div className="about-me-container">
         <img src={require("../images/robin_salomon_circle_headshot.png")}></img>
       </div>
