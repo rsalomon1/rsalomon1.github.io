@@ -26,7 +26,7 @@ function Services() {
           <p style={{ color: "rgb(220,127,50)" }} className="bullet-points">
             ⸻
           </p>
-          <p className="header-text">What you could expect:</p>
+          <p className="header-text">What you can expect:</p>
           <div className="bullets-container">
             <p className="p-font">
               Responsive design: websites that look good across all devices
