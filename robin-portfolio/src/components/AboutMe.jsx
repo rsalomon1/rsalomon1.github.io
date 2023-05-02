@@ -42,7 +42,7 @@ function AboutMe() {
         I graduated in April 2022, and was hired on as a Junior Developer by the
         company that ran the boot camp, marking
         the start of my professional journey in tech. As I worked on different projects,
-        I became particularly interestd in UI/UX design and front-end technologies. 
+        I became particularly interested in UI/UX design and front-end technologies. 
         I developed a passion for creating user interfaces that are friendly and intuitive.
         I am very grateful for making a transition into the field, 
         and I am so excited to see what else lies ahead for me in this industry. 
