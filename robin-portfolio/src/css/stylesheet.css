@@ -250,12 +250,18 @@ img {
     max-height: 100vh;
   }
 }
+@media screen and (max-width: 915px) {
+  .landing-page {
+   min-height: 200vh;
+  }
+}
 @media screen and (max-width: 420px) {
   body {
     min-height: 60vh;
   }
   .landing-page {
-    max-height: 100vh;
+    max-height: 60vh;
+    min-height: 60vh;
   }
   .menu-item-navbar {
     font-size: 1rem;
@@ -265,9 +271,10 @@ img {
     margin-left: 3vh;
     margin-right: 3vh;
   }
-
   .menu-item {
     font-size: larger;
     padding: 5px;
   }
+
+
 }
