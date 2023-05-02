@@ -260,8 +260,8 @@ img {
     min-height: 60vh;
   }
   .landing-page {
-    max-height: 60vh;
-    min-height: 60vh;
+    max-height: 55vh;
+    min-height: 55vh;
   }
   .menu-item-navbar {
     font-size: 1rem;
@@ -277,7 +277,6 @@ img {
   }
   .landing-page-content-container{
     position: relative;
-    bottom: 10vh;
+    bottom: 9vh;
   }
-
 }
