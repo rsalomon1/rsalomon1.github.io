@@ -13,7 +13,7 @@ function Services() {
         <div style={{marginTop:"1.5rem"}} className="text-content">
           <p  className="p-font">
             I'm always happy to put my technical skills to use on new or
-            existing projects. Since I'm a Full Stack Developer, I can code the
+            existing projects. As a Full Stack Developer, I can code the
             client-facing aspect of what customers see, in addition to the logic
             that takes place behind-the-scenes.
             <br />
