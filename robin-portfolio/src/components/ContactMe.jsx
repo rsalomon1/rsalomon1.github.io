@@ -19,19 +19,25 @@ function ContactMe() {
         </p>
         <p style={{ color: "rgb(220,127,50)" }} className="p-font">
           <span style={{ color: "gray", marginRight: "5px" }}>Email:</span>{" "}
-          robin.lynne.salomon@gmail.com
+          <a
+            style={{ color: "rgb(220,127,50)" }}
+            href="mailto:robin.lynne.salomon@gmail.com"
+          >
+            robin.lynne.salomon@gmail.com
+          </a>
         </p>
         <p className="p-font">
           <span>
             Connect with me on LinkedIn{" "}
             <a
-              style={{ color: "rgb(220,127,50)", textDecoration:"none" }}
+              style={{ color: "rgb(220,127,50)", textDecoration: "underline" }}
               target="_blank"
               href="https://www.linkedin.com/in/robin-l-salomon/"
             >
               {" "}
-              here.
+              here
             </a>
+            <span style={{ textDecoration: "none" }}>.</span>
           </span>
         </p>
         <p style={{ color: "rgb(220,127,50)" }} className="bullet-points">
