@@ -5,7 +5,7 @@ function LandingPage() {
   const navigate = useNavigate();
   return (
     <div className="landing-page">
-      <div className="page-container">
+      <div className="landing-page-content-container">
         <p className="robin-salomon-name">Robin Salomon</p>
         <p className="web-developer">Full Stack Web Developer</p>
 
@@ -21,8 +21,9 @@ function LandingPage() {
           <p style={{ color:"rgb(220,127,50)" }} className="menu-item">
             ⸻
           </p>
+          </div>
         </div>
-      </div>
+     
     </div>
   );
 }

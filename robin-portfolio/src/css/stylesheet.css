@@ -275,6 +275,9 @@ img {
     font-size: larger;
     padding: 5px;
   }
-
+  .landing-page-content-container{
+    position: relative;
+    bottom: 10vh;
+  }
 
 }
