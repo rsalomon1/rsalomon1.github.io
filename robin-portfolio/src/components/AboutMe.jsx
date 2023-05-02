@@ -10,7 +10,7 @@ function AboutMe() {
       <p className="header-text">About Me</p>
       <div className="text-content">
       <p className="p-font">
-        I'm a Full Stack Web Developer with a non-traditional backround in
+        I'm a Full Stack Web Developer with a non-traditional background in
         tech. It wasn't until my mid-thirties when I decided to transition
         into the field. I had wanted to do this for some time, but I
         wasn't quite sure how to make the leap.
@@ -19,7 +19,7 @@ function AboutMe() {
         I first developed an interest in web development in 2012 when I supported
         a web redesign project for a public health consulting firm where I had worked
         at the time. I provided content expertise to the development team, and acted 
-        as a liason across stakeholders in the project. As I became closer with 
+        as a liaison across stakeholders in the project. As I became closer with 
         the development team and grew fond of their personalities, 
         I thought to myself, "I really want to be a part 
         of this crowd." My interest in the field grew, and as more time went
