@@ -177,6 +177,7 @@ img {
 .text-content {
   margin-bottom: 10vh;
 }
+
 @media screen and (max-width: 601px) {
   .robin-salomon-name {
     font-size: 7vw;
@@ -254,7 +255,12 @@ img {
     max-height: 100vh;
   }
 }
-
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  .landing-page-content-container {
+    position: relative;
+    bottom: 18vh;
+  }
+}
 @media screen and (max-width: 915px) {
   .landing-page {
     min-height: 200vh;
