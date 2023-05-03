@@ -256,6 +256,10 @@ img {
   }
 }
 @media screen and (min-device-width: 1200px) and (max-device-width: 1600px) {
+  .menu-item {
+    padding: 5px;
+  }
+
   .landing-page-content-container {
     position: relative;
     bottom: 18vh;
