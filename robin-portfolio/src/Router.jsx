@@ -1,9 +1,9 @@
 import React from "react";
-import LandingPage from "./components/LandingPage";
+import LandingPage from "./view/LandingPage";
 import { Route, Routes } from "react-router-dom";
-import ContactMe from "./components/ContactMe";
-import AboutMe from "./components/AboutMe";
-import Services from "./components/Services";
+import ContactMe from "./view/ContactMe";
+import AboutMe from "./view/AboutMe";
+import Services from "./view/Services";
 function Router() {
   return (
     <Routes>
