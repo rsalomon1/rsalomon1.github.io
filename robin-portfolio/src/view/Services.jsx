@@ -1,5 +1,7 @@
 import React from "react";
 import NavBar from "../component/NavBar";
+import resume from "../utils/Robin_Salomon_resume.pdf";
+
 
 function Services() {
   return (
@@ -59,31 +61,36 @@ function Services() {
           >
             JUnit, Mockito, TestNG
           </p>
+          <p className="paragraph-text">
+            For a full list of my skills and experience, please view my resume:
+          </p>
+          <a style={{textDecoration:"underline", color:"rgb(220,127,50)"}} className="paragraph-text" href={resume} target="_blank">Resume - Click to download</a>
+
+          <p style={{ color: "rgb(220,127,50)" }} className="dash-separator">
+            ⸻
+          </p>
         </div>
+        <p className="header-text">What you can expect:</p>
+
+        <p className="paragraph-text">
+          Responsive design: websites that look good across all devices
+        </p>
+
+        <p className="paragraph-text">
+          A clean coding style that will make your application easy to maintain
+          down the road
+        </p>
+        <p className="paragraph-text">
+          Reliability and timely delivery from start to finish
+        </p>
+        <p className="paragraph-text">
+          Communication and a client-focused approach to work
+        </p>
+        <p className="paragraph-text">Flexibility with changing needs</p>
         <p style={{ color: "rgb(220,127,50)" }} className="dash-separator">
           ⸻
         </p>
       </div>
-      <p className="header-text">What you can expect:</p>
-
-      <p className="paragraph-text">
-        Responsive design: websites that look good across all devices
-      </p>
-
-      <p className="paragraph-text">
-        A clean coding style that will make your application easy to maintain
-        down the road
-      </p>
-      <p className="paragraph-text">
-        Reliability and timely delivery from start to finish
-      </p>
-      <p className="paragraph-text">
-        Communication and a client-focused approach to work
-      </p>
-      <p className="paragraph-text">Flexibility with changing needs</p>
-      <p style={{ color: "rgb(220,127,50)" }} className="dash-separator">
-        ⸻
-      </p>
     </div>
   );
 }
